@@ -1,0 +1,508 @@
+<!DOCTYPE
+html>
+
+<html>
+
+<head>
+
+    <style>
+        * {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+       
+
+        .col1 {
+
+            float: left;
+
+            width: 40%;
+
+            padding:
+                10px;
+
+            height:
+                90px;
+            
+
+        }
+        .col2{
+
+float: left;
+
+width: 30%;
+
+padding:
+    10px;
+
+height:
+    90px;
+
+
+}
+
+.col3 {
+
+float: left;
+
+width: 30%;
+
+padding:
+    10px;
+
+height:
+    90px;
+/* Should be removed. Only for demonstration */
+
+}
+
+
+        .column1 {
+
+            float: left;
+
+            width: 50%;
+
+            padding:
+                0px;
+
+            height:
+                auto;
+            /* Should be removed. Only for demonstration */
+
+        }
+
+        .column2 {
+
+            float: left;
+
+            width:50%;
+
+            padding:
+                0px;
+
+            height:
+                auto;
+
+        }
+
+        .first {
+
+            float: left;
+
+            width: 50%;
+
+            padding:
+                0px;
+
+            position: static;
+
+            height:
+                auto;
+            overflow: auto;
+
+        }
+        .first1 {
+
+float: left;
+
+width: 30%;
+
+padding:
+    0px;
+
+position: static;
+height: auto;
+
+overflow: auto;
+
+}
+.first2 {
+
+float: left;
+
+width:20%;
+
+padding:
+    0px;
+    height: auto;
+position: static;
+
+
+overflow: auto;
+
+}
+
+        
+
+        .second {
+            float: left;
+
+            width: 33.3%;
+
+            padding:
+                0px;
+
+            position: static;
+
+
+            overflow: auto;
+        }
+
+
+        /* Clear floats after the columns */
+
+        .row:after {
+
+            content: "";
+
+            display: table;
+
+            clear: both;
+
+        }
+        table {
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 2px solid white;
+}
+th
+{
+    background-color:#AABBCB; 
+}
+td{
+    background-color: #E5E6FA;
+}
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="row" style="height:90px">
+
+        <div class="col1" style="background-color:#6599FF;">
+
+
+
+            <img src="C:\users\puppalvi\Desktop\fujilogo.png" class="img-rounded" alt="logo" width="85" height="20">
+
+
+
+            <span style="color:white;font-size: 20px;">富士通</span><br />
+
+            <span style="color:white;font-size: 20px;">発注計画情報入力</span>
+
+        </div>
+
+        <div class="col2" style="background-color:#6599FF;">
+
+            <br />
+
+            <span style="color:white;font-size: 15px;">利用者第二金融シス事業部萬関孝典</span>
+
+            <br />
+
+            <span style="color:white;font-size: 15px;">代行者：ーーーーーーーーーーーー</span>
+
+        </div>
+
+        <div class="col3" style="background-color:#6599FF;">
+
+            <span style="color:white;font-size: 15px;float:left">04/07
+                Logon 17:15 Load 17:16
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br /><br />
+
+            <span style="float: right"><button>メニュー</button></span>
+
+        </div>
+
+    </div>
+
+    <div class="row1" style="height:160px">
+
+        <label>* は入力必須項目</label>
+
+        <label>
+            <pre><製品基本情報></pre></label>
+
+
+
+            <div class="first">
+
+                    <div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+                    50%;height: 20px;font-size: 14px">製品(2-5-6)</div>
+                   
+                               <div class="col-sm-3" style="background-color:#E5E6FA;width: 49.8%;height: 20px;font-size:12px;float: right">
+                                   &nbsp;SW00000-001000</div>
+                   
+    
+    
+                                   <div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+    50%;height: 20px;margin-top:3px;font-size: 14px ">製品名</div>
+    
+                <div class="col-sm-3" style="background-color:#E5E6FA;width: 49.8%;height: 20px;font-size:12px;float: right;margin-top:3px"> &nbsp;外貨建保険発売対応支援(設計書
+                    2)</div>
+                <div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+     50%;height: 20px;margin-top:3px;font-size: 14px ">製品担当部署</div>
+                <div class="col-sm-3" style="background-color:#E5E6FA;width: 49.8%;height: 20px;font-size:12px;float: right;margin-top:3px"> &nbsp;第二金融シス事業部(5001)
+                </div>
+                <div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+      50%;height: 20px;margin-top:3px;font-size: 14px ">作業期間</div>
+                <div class="col-sm-3" style="background-color:#E5E6FA;width: 49.8%;height: 20px;font-size:12px;float: right;margin-top:3px"> &nbsp;2017/05/01-2017/06/30
+                </div>
+    
+                   
+            </div>
+    
+    
+            <div class="first1">
+               
+                    <div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+         50%;height: 20px;font-size: 14px;margin-left:1px">予測番号</div>
+        
+                    <div class="col-sm-3" style="background-color:#E5E6FA;width: 49.5%;height: 20px;font-size:12px;float:right">
+                        &nbsp;0001591867-000101</div>
+    
+                        <div class="col-sm-3" style="background-color:#E5E6FA;width: 100%;height: 20px;margin-top:3px;font-size:12px;float: left"> &nbsp; </div>
+                      
+    
+                        <div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+                        50%;height: 20px;font-size: 14px;margin-top:3px;margin-left:1px">製品担当者</div>
+                       
+                                   <div class="col-sm-3" style="background-color:#E5E6FA;width: 49.5%;height: 20px;margin-top:3px;font-size:12px;float:right">
+                                        &nbsp; 松本純輔</div>
+                   
+                                       <div class="col-sm-3" style="background-color:#E5E6FA;width: 100%;height: 20px;margin-top:3px;font-size:12px;float: left"> &nbsp; </div>
+                                     
+    
+    </div>
+    
+    
+    <div class="first2">
+            <div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+    50%;height: 20px;font-size: 14px;margin-left:2px">製品状態</div>
+    
+            <div class="col-sm-3" style="background-color:#E5E6FA;width: 49%;height: 20px;font-size:12px;float: right"> &nbsp;計画 </div>
+            <div class="col-sm-3" style="background-color:#E5E6FA;width: 100%;height: 20px;margin-top:3px;font-size:12px;float: left"> &nbsp; </div> 
+            <div class="col-sm-3" style="background-color:#E5E6FA;width: 100%;height: 20px;margin-top:3px;font-size:12px;float: left"> &nbsp; </div>
+             <div class="col-sm-3" style="background-color:#E5E6FA;width: 100%;height: 20px;margin-top:3px;font-size:12px;float: left"> &nbsp; </div>
+            </div>
+    
+
+    </div>
+    <span style="margin-top:0px">
+        <分析項目>
+    </span>
+
+    <br /><br />
+    <div class="row2" style="height:90px;width: 100%">
+
+            <div class="column1">
+                <div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+    50%;height: 20px;margin-top:3px;font-size: 14px ">実績
+                    反映 月度</div>
+                <div class="col-sm-3" style="background-color:#E5E6FA;width: 49.8%;height: 20px;margin-top:3px;font-size:12px;float: right "> &nbsp; 2017/03</div>
+    
+            </div>
+    
+            <div class="column2">
+                <div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+    45%;height: 20px;margin-top:3px;font-size: 14px;margin-left:2px ">当月
+                    実績 振向 有無</div>
+                <div class="col-sm-31" style="background-color:#E5E6FA;width: 54.5%;height: 20px;margin-top:3px;font-size:12px;float: right "> &nbsp;無 </div>
+            </div>
+<br/><br/><br/><br/>
+
+        <span style="margin-top:0px;float: left;">
+            <製品 損益 状況>
+        </span>
+        <span style="margin-top:0px;float: right;">
+            金額単位円
+        </span>
+        <div>
+            <table width="100%" height="100">
+                <tr>
+                    <th rowspan="3">最新 予測</th>
+                    <th rowspan="2">売上 金額 / 荒利益</th>
+                    <th rowspan="2">原価</th>
+                    <th rowspan="2">原価率</th>
+
+                    <th colspan="5">仕込</th>
+
+
+                    <th rowspan="2">仕込合計 / 内数 予備費</th>
+                    <th rowspan="2">廃却</th>
+                </tr>
+                <tr>
+                    <th>社内加工費</th>
+                    <th>経費その他</th>
+                    <th>社内 金額</th>
+                    <th>外注金額</th>
+                    <th>関連製品</th>
+                </tr>
+                <tr>
+                    <td>data1</td>
+                    <td>data2</td>
+                    <td>data3</td>
+                    <td>data4</td>
+                    <td>data5</td>
+                    <td>data6</td>
+                    <td>data7</td>
+                    <td>data8</td>
+                    <td>data9</td>
+                    <td>data10</td>
+
+                </tr>
+
+
+            </table>
+
+        </div>
+        <div class="middle">
+            <hr><br />
+            <span style="margin-top:0px">
+                <発注計画>
+            </span>
+            <span style="margin-top:0px;float: right">
+                工数単位:時間金額単位円
+            </span>
+            <br />
+            <div class="column1">
+                    <table>
+                    <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+         40%;height: 20px;margin-top:3px;font-size: 14px ">発注計画番号</div>
+         <div class="col-sm-3" style="background-color:#E5E6FA;width: 59.8%;height: 20px;margin-top:3px ;font-size:12px;float:right;"> &nbsp; </div></tr>
+         <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+            40%;height: 20px;margin-top:3px;font-size: 14px ">契約形態</div>
+            <div class="col-sm-3" style="background-color:#E5E6FA;width: 59.8%;height: 20px;margin-top:3px ;font-size:12px;float:right;"> &nbsp;作成請負 </div></tr>
+            <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+                40%;height: 20px;margin-top:3px;font-size: 14px ">手続状態</div>
+                <div class="col-sm-3" style="background-color:#E5E6FA;width: 59.8%;height: 20px;margin-top:3px ;font-size:12px;float:right;"> &nbsp;計画 </div></tr>
+                <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+                    40%;height: 20px;margin-top:3px;color: red;font-size: 14px ">発注名</div>
+                    <div class="col-sm-3" style="background-color:#E5E6FA;width: 59.8%;height: 20px;margin-top:3px ;font-size:12px;float:right;">  &nbsp;<input type="text" size="42"> </div></tr>
+                    <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+                        40%;height: 20px;margin-top:3px;color: red;font-size: 14px ">協力会社</div>
+                        <div class="col-sm-3" style="background-color:#E5E6FA;width: 59.8%;height: 20px;margin-top:3px ;font-size:12px;float:right;"> &nbsp;<input type="text"><span>-</span><input type="text" size="1">&nbsp;<button>参照</button> </div></tr>
+                        <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+                            40%;height: 20px;margin-top:3px;color: red;font-size: 14px ">予測開始日</div>
+                            <div class="col-sm-3" style="background-color:#E5E6FA;width: 59.8%;height: 20px;margin-top:3px ;font-size:12px;float:right;">&nbsp;<input type="text">&nbsp;<button>参照</button> </div></tr>
+                            <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+                                40%;height: 20px;margin-top:3px;font-size: 14px ">予測納入/終了日</div>
+                                <div class="col-sm-3" style="background-color:#E5E6FA;width: 59.8%;height: 20px;margin-top:3px ;font-size:12px;float:right;"> &nbsp;<input type="text">&nbsp;<button>参照</button> </div></tr>
+                                <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+                                    40%;height: 20px;margin-top:3px;color: red;font-size: 14px ">予測検収予定日</div>
+                                    <div class="col-sm-3" style="background-color:#E5E6FA;width: 59.8%;height: 20px;margin-top:3px ;font-size:12px;float:right;"> &nbsp;<input type="text">&nbsp;<button>参照</button> </div></tr>
+                                    <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+                                        40%;height: 20px;margin-top:3px;font-size: 14px ">予測工数</div>
+                                        <div class="col-sm-3" style="background-color:#E5E6FA;width: 59.8%;height: 20px;margin-top:3px ;font-size:12px;float:right;"> &nbsp; </div></tr>
+                                        <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+                                            40%;height: 20px;margin-top:3px;font-size: 14px ">予測金額</div>
+                                            <div class="col-sm-3" style="background-color:#E5E6FA;width: 59.8%;height: 20px;margin-top:3px ;font-size:12px;float:right;"> &nbsp; </div></tr>
+                    </table>
+                    
+                    
+                                </div>
+    
+            <div class="column2">
+    <table >
+    <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+        25%;height: 20px;margin-top:3px;font-size: 14px;margin-left:2px  ">物件番号</div>
+        <div class="col-sm-31" style="background-color:#E5E6FA;width: 74.5%;height: 20px;margin-top:3px;font-size:12px;float:right "> &nbsp;</div></tr>
+    
+        <tr><div  class="col-sm-31" style="background-color:#E5E6FA;width: 100%;height: 20px;margin-top:3px;font-size:12px;float:left " > &nbsp; </div></tr>
+        <tr><div  class="col-sm-31" style="background-color:#E5E6FA;width: 100%;height: 20px;margin-top:3px;font-size:12px;float:left " > &nbsp; </div></tr>
+        <tr><div  class="col-sm-31" style="background-color:#E5E6FA;width: 100%;height: 20px;margin-top:3px;font-size:12px;float:left " > &nbsp; </div></tr>
+        <tr><div  class="col-sm-31" style="background-color:#E5E6FA;width: 100%;height: 20px;margin-top:3px;font-size:12px;float:left " > &nbsp; </div></tr>
+    
+    
+    
+    
+    
+        <tr><div  class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+        25%;height: 20px;margin-top:3px;font-size: 14px;margin-left:2px  ">物件番号</div>
+        <div class="col-sm-31" style="background-color:#E5E6FA;width: 74.5%;height: 20px;margin-top:3px;font-size:12px;float:right "> &nbsp; </div></tr>
+        <tr> <div  class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+            25%;height: 20px;margin-top:3px;font-size: 14px;margin-left:2px  ">契約納入/終了日</div>
+            <div class="col-sm-31" style="background-color:#E5E6FA;width: 74.5%;height: 20px;margin-top:3px;font-size:12px;float:right "> &nbsp; </div></tr>
+        <tr><div  class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+            25%;height: 20px;margin-top:3px;font-size: 14px;margin-left:2px  ">契約検収予定日</div>
+            <div class="col-sm-31" style="background-color:#E5E6FA;width: 74.5%;height: 20px;margin-top:3px;font-size:12px;float:right "> &nbsp; </div></tr>
+        <tr><div class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+            25%;height: 20px;margin-top:3px;font-size: 14px;margin-left:2px  ">契約工数</div>
+            <div class="col-sm-31" style="background-color:#E5E6FA;width: 74.5%;height: 20px;margin-top:3px;font-size:12px;float:right "> &nbsp; </div></tr>
+        <tr><div  class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+            25%;height: 20px;margin-top:3px;font-size: 14px;margin-left:2px  ">契約金額</div> 
+            <div class="col-sm-31" style="background-color:#E5E6FA;width: 74.5%;height: 20px;margin-top:3px;font-size:12px;float:right "> &nbsp; </div></tr>
+        <tr>   <div  class="col-sm-3" style="background-color:#AABBCB;text-align: center;float: left;width:
+            25%;height: 20px;margin-top:3px;font-size: 14px;margin-left:2px  ">コストダウン金額</div>
+             <div class="col-sm-31" style="background-color:#E5E6FA;width: 74.5%;height: 20px;margin-top:3px;font-size:12px;float:right "> &nbsp;</div></tr>
+        
+    
+    </table>
+    
+    
+                </div>
+            <br />
+            <div height="10px" >&nbsp;<hr></div>
+            
+            <div id="hide" width="100%">
+                <div class="column1">
+                    <br /><br />
+                    <span style="float: left"></span>
+
+                    <div class="col-sm-3" style="background-color:#336699;text-align: center;float: right;width:
+    25%;height: 20px;margin-top:5px;color: white ;margin-right:3px;font-size: 14px">発注工数</div><br />
+                    <br />
+                    <div class="col-sm-3" style="background-color:#E5E6FA;text-align: right;float: right;width:
+     25%;height: 20px;margin-right:3px;font-size: 14px ">
+                        <input type="text" size="7"></div>
+                </div>
+                <div class="column2">
+                    <span style="float: left;font-size: 13px">工数単位:時間 &nbsp;
+
+                        <button>表示切替</button>&nbsp;
+                        金額単位円</span><br /><br />
+
+                    <div class="col-sm-3" style="background-color:#336699;text-align: center;float: left;width:
+                25%;height: 20px;margin-top:5px;color:white;font-size: 14px">
+                        発注金額</div><br /><br />
+                    <div class="col-sm-3" style="background-color:#E5E6FA;float: left;width:
+                25%;height: 20px;margin-top:0px;text-align: right;font-size: 14px "><input
+                            type="text" size="7"> </div>
+                    <br />
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer" style="padding-bottom:1px;">
+            <br />
+            <button style="float:left;background-color: skyblue;width: 80px">
+                戻る
+            </button>
+            <button style="float:right;padding-bottom: 2px;background-color: lightgreen;width: 80px">
+                更新
+            </button>
+            <button style="float:right;padding-bottom: 2px;background-color: yellow;width: 80px;margin-right: 5px">
+                再展示
+            </button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
